@@ -1,0 +1,1 @@
+ps -ef | grep -E 'databus|media|sync|gif|session|gateway|relay|wsserver|biz_server|auth_session|push|admin_log|botway|botfather|inbox|webpage|scheduled|api_server|msg'|grep -v grep | awk '{ print $2 }' | xargs kill -9

@@ -1,0 +1,10 @@
+.idea/*
+bin/*
+logs/*
+configs/*
+sql/*
+!bin/server_pkcs1.key
+!bin/run.sh
+!bin/run.bat
+!bin/GeoLite2-City.mmdb
+!bin/config.json
